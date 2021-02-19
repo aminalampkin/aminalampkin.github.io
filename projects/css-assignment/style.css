@@ -1,47 +1,45 @@
-#headline{
-	font-family: 'Roboto Slab', serif;
-	font-weight:700;
-	font-size: 48px;
+#headline {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 48px;
 }
 
-body{
-	font-family:'Open Sans', sans-serif;
-	font-weight: 400;
-	font-size: 18px;
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
 }
 
-.captions{
-	font-family:'Roboto Slab', serif;
-	font-weight: 300;
-	background-color: lightgray;
+.captions {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    background-color: lightgray;
 }
 
 #byline,
-#datetime{
-	font-family:'Roboto Slab', serif;
-	font-weight: 300;
-	font-size: 24px;
-	color:gray;
+#datetime {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: gray;
 }
 
 
-.subheaders{
-	font-family: 'Roboto Slab', serif;
-	font-weight: 700;
-	font-size: 24px;
-	text-transform: uppercase;
+.subheaders {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
 }
 
-#biobox{
-	font-weight: 300 ;
-	font-size: 15px;
+#biobox {
+    font-weight: 300;
+    font-size: 15px;
 }
 
-#sectitle{
-	font-family:'Open Sans', sans-serif;
-	font-weight: 600;
-	color: gray;
-	text-transform: uppercase;
+#sectitle {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: gray;
+    text-transform: uppercase;
 }
-
-
