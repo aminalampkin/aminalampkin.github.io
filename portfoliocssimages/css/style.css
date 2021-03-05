@@ -1,0 +1,50 @@
+/*
+Font selection
+font-family: 'Noto Sans TC', sans-serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Roboto Mono', monospace;
+*/
+
+.navbar-brand {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.nav-item {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 80px;
+    text-align: center;
+
+}
+
+.blockquote p{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.blockquote-footer {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+}
+
+p {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 400;
+}
+
+#aboutheadshot {
+    width: 100%;
+    height: auto;
+}
