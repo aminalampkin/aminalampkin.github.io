@@ -5,11 +5,15 @@ font-family: 'Cormorant Garamond', serif;
 font-family: 'Roboto Mono', monospace;
 */
 
-.navbar-brand {
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-align: center;
+header{
+    width: 50%;
+    height: 100px;
+    background-color: blue;
+
+}
+
+.nav{
+    background-color: black;
 }
 
 .nav-item {
