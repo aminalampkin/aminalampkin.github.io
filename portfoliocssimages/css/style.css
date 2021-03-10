@@ -14,25 +14,30 @@ h1 {
 
 }
 
+#photoTextBlock {
+    position: relative;
+}
 #carouselExampleIndicators{
     display:inline-block;
-    max-width: 80%;
+    max-width: 90%;
     position: relative;
 }
 #text-block{
     display:inline-block;
+    position: absolute;
+    top: 550px;
+    left: 850px;
     z-index:2;
     background-color: black;
     padding: 10px;
 }
 #text-block h1{
-    font-size: 30px;
+    font-size: 45px;
     color: white;
 }
 
 .nav-top{
     background-color: black;
-    margin
 }
 
 
