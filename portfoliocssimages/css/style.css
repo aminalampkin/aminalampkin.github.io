@@ -44,6 +44,10 @@ h1 {
     text-align: center;
 }
 
+.active{
+    background-color: pink;
+}
+
 h1 {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 700;
@@ -52,10 +56,6 @@ h1 {
     text-align: center;
 
 }
-
-/* .container{
-    border: 1px solid black;
-}*/
 
 .blockquote p{
     font-family: 'Roboto Mono', monospace;
