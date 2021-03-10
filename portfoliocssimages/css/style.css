@@ -5,20 +5,40 @@ font-family: 'Cormorant Garamond', serif;
 font-family: 'Roboto Mono', monospace;
 */
 
-header{
-    width: 50%;
-    height: 100px;
-    background-color: blue;
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 80px;
+    text-align: center;
 
 }
 
-.nav{
+#carouselExampleIndicators{
+    display:inline-block;
+    max-width: 80%;
+    position: relative;
+}
+#text-block{
+    display:inline-block;
+    z-index:2;
     background-color: black;
+    padding: 10px;
 }
+#text-block h1{
+    font-size: 30px;
+    color: white;
+}
+
+.nav-top{
+    background-color: black;
+    margin
+}
+
 
 .nav-item {
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 600;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
     text-transform: uppercase;
     text-align: center;
 }
@@ -32,10 +52,16 @@ h1 {
 
 }
 
+/* .container{
+    border: 1px solid black;
+}*/
+
 .blockquote p{
     font-family: 'Roboto Mono', monospace;
-    font-weight: 400;
-    font-size: 12px;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 30px;
+    text-align: center;
 }
 
 .blockquote-footer {
@@ -46,9 +72,12 @@ h1 {
 p {
     font-family: 'Noto Sans TC', sans-serif;
     font-weight: 400;
+    margin: 30px;
+    width: 75%;
 }
 
 #aboutheadshot {
     width: 100%;
     height: auto;
+    margin: 10px;
 }
