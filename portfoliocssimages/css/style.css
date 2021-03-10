@@ -32,9 +32,6 @@ h1 {
     color: white;
 }
 
-.nav-top{
-    background-color: black;
-}
 
 
 .nav-item {
@@ -44,7 +41,7 @@ h1 {
     text-align: center;
 }
 
-.active{
+a{
     background-color: pink;
 }
 
