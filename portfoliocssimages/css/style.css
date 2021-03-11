@@ -18,11 +18,11 @@ Color selection (color.adobe.com, shades of ff8921)
 
 a{
     text-decoration: none;
-    color: #402208;
+    color:#402208;
 }
 
 a:hover{
-    color:#ff8921;
+    color:#FF8921;
 }
 
 
@@ -32,7 +32,7 @@ h1 { /* edit for global */
     text-transform: uppercase;
     font-size: 80px;
     text-align: center;
-    background: #cccccc;
+    background:#CCCCCC;
 
 }
 
@@ -44,7 +44,7 @@ h2{
     letter-spacing: -2px;
     padding-top: 5px;
     padding-bottom: 5px;
-    color: #BF6719;
+    color:#BF6719;
 
 }
 h3 h4 h5 p{
@@ -54,11 +54,7 @@ h3 h4 h5 p{
 }
 h3{
     font-size: 28px;
-    color: #BF6719;
-}
-
-h4 h5 p{
-    color: #804411;
+    color:#BF6719;
 }
 
 h4 {
@@ -71,13 +67,36 @@ h4.res-job-title a.res-job-title
     font-style: italic;
 }
 
+h4.res-job-title{
+    color:#402208;
+}
+
 a.res-job-title:hover{
-    color:#ff8921;
+    color:#FF8921;
 }
 
 h5 {
     font-size: 15px;
     font-style: italic;
+    color:#402208;
+}
+
+p {
+    font-size: 15px;
+    color:#804411;
+ 
+}
+
+ul{
+    list-style-type: square;
+   color:#402208;
+}
+
+.featuredimages {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 
@@ -95,7 +114,7 @@ h5 {
     margin-top: 20px;
 }
 .nav-pills .nav-link.active{
-    background: #cccccc;
+    background:#CCCCCC;
     color: black;
 }
 
@@ -110,16 +129,11 @@ h5 {
 }
 
 /* about */
-.blockquote p{
+.blockquote p {
     font-family: 'Roboto Mono', monospace;
     font-weight: 500;
     font-size: 15px;
     text-align: center;
-}
-
-#aboutheadshot {
-    width: 100%;
-    height: auto;
 }
 
 /* resume */
@@ -133,10 +147,22 @@ h5 {
     padding: 2px;
 }
 
+/* contact */
+
+label{
+   font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color:#FF8921;
+    text-transform: uppercase;
+}
+
 i
 {   font-size: 25px;
-    color: #ff8921;
-    margin-left:3px;
-    margin-right: 3px;
+    color:#FF8921;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
 }
 
