@@ -16,27 +16,28 @@ Color selection (color.adobe.com, shades of ff8921)
 
 /* global */
 
-a{
+a {
     text-decoration: none;
-    color:#402208;
+    color: #402208;
 }
 
-a:hover{
-    color:#FF8921;
+a:hover {
+    color: #FF8921;
 }
 
 
-h1 { /* edit for global */
+h1 {
+    /* edit for global */
     font-family: 'Cormorant Garamond', serif;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 80px;
     text-align: center;
-    background:#CCCCCC;
+    background: #CCCCCC;
 
 }
 
-h2{
+h2 {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 800;
     font-size: 42px;
@@ -44,17 +45,19 @@ h2{
     letter-spacing: -2px;
     padding-top: 5px;
     padding-bottom: 5px;
-    color:#BF6719;
+    color: #BF6719;
 
 }
-h3 h4 h5 p{
+
+h3 h4 h5 p {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 
 }
-h3{
+
+h3 {
     font-size: 28px;
-    color:#BF6719;
+    color: #BF6719;
 }
 
 h4 {
@@ -62,34 +65,38 @@ h4 {
     font-style: italic;
 }
 
-h4.res-job-title a.res-job-title
-{
+h4.res-job-title a.res-job-title {
     font-style: italic;
 }
 
-h4.res-job-title{
-    color:#402208;
+h4.res-job-title {
+    color: #402208;
 }
 
-a.res-job-title:hover{
-    color:#FF8921;
+a.res-job-title:hover {
+    color: #FF8921;
 }
 
 h5 {
     font-size: 15px;
     font-style: italic;
-    color:#402208;
+    color: #402208;
 }
 
 p {
     font-size: 15px;
-    color:#804411;
- 
+    color: #804411;
+
 }
 
-ul{
+ul {
     list-style-type: square;
-   color:#402208;
+    color: #402208;
+}
+
+.row {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .featuredimages {
@@ -107,25 +114,39 @@ ul{
     text-transform: uppercase;
     text-align: center;
 }
-.nav-top{
-        margin-bottom: 10px;
+
+.nav-top {
+    margin-bottom: 10px;
 }
-.nav-bottom{
+
+.nav-bottom {
     margin-top: 20px;
 }
-.nav-pills .nav-link.active{
-    background:#CCCCCC;
+
+.nav-pills .nav-link.active {
+    background: #CCCCCC;
     color: black;
 }
 
-.nav-item{
+.nav-item {
     padding: 10px;
 }
 
 /* home page */
-#homevj{
-    font-size:40px;
-    text-align: right;
+.homevj {
+    color:#FF8921;
+    padding-top: 30px;
+    font-size: 42px;
+    text-align:right;
+    background-color:#FFFFFF;
+}
+
+#homevjdesc{
+    font-family: 'Cormorant Garamond', serif;
+    list-style-type: none;
+    text-align:right;
+    font-size:35px;
+    font-weight:700;
 }
 
 /* about */
@@ -136,33 +157,37 @@ ul{
     text-align: center;
 }
 
+/* clips */
+hr {
+    width: 100%;
+}
+
 /* resume */
-.res-intro{
+.res-intro {
     text-align: center;
     margin-bottom: 10px;
 }
 
-.nav-bottom{
-    background:#cccccc;
+.nav-bottom {
+    background: #cccccc;
     padding: 2px;
 }
 
 /* contact */
 
-label{
-   font-family: 'Roboto Mono', monospace;
+label {
+    font-family: 'Roboto Mono', monospace;
     font-weight: 500;
     font-size: 15px;
     text-align: center;
-    color:#FF8921;
+    color: #FF8921;
     text-transform: uppercase;
 }
 
-i
-{   font-size: 25px;
-    color:#FF8921;
-    padding-left:20px;
-    padding-right:20px;
-    padding-top:10px;
+i {
+    font-size: 25px;
+    color: #FF8921;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
 }
-
