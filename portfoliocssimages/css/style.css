@@ -5,47 +5,19 @@ font-family: 'Cormorant Garamond', serif;
 font-family: 'Roboto Mono', monospace;
 */
 
-h1 {
-    font-family: 'Cormorant Garamond', serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 80px;
-    text-align: center;
-}
-
-#photoTextBlock {
-    position: relative;
-}
-#carouselExampleIndicators{
-    display:inline-block;
-    max-width: 90%;
-    position: relative;
-}
-#text-block{ /* needs to be responsive */
-    display:inline-block;
-    z-index:2;
-    background-color: black;
-    padding: 10px;
-}
-#text-block h1{
-    font-size: 45px;
-    color: white;
-}
-
-
-
-.nav-item {
-    font-family: 'Cormorant Garamond', serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
-}
+/* global */
 
 a{
-    background-color: pink;
+    text-decoration: none;
+    color: black;
 }
 
-h1 {
+a:hover{
+    color:#ff8921;
+}
+
+
+h1 { /* edit for global */
     font-family: 'Cormorant Garamond', serif;
     font-weight: 700;
     text-transform: uppercase;
@@ -54,28 +26,70 @@ h1 {
 
 }
 
-.blockquote p{
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 600;
-    font-size: 18px;
-    margin: 30px;
+#name {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 80px;
     text-align: center;
+    color: white; 
+    background-color: #cccccc;
 }
 
-.blockquote-footer {
+.nav {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.nav-top{
+        margin-bottom: 10px;
+}
+.nav-bottom{
+    margin-top: 20px;
+}
+.nav-pills .nav-link.active{
+    background: #cccccc;
+    color: black;
+}
+
+.nav-item{
+    padding: 10px;
+}
+
+/* home page */
+#homevj{
+    font-size:40px;
+    text-align: right;
+}
+
+/* about */
+.blockquote p{
     font-family: 'Roboto Mono', monospace;
-    font-weight: 200;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
 }
 
 p {
     font-family: 'Noto Sans TC', sans-serif;
     font-weight: 400;
-    margin: 30px;
-    width: 75%;
 }
 
 #aboutheadshot {
     width: 100%;
     height: auto;
-    margin: 10px;
 }
+
+.nav-bottom{
+    background:#cccccc;
+    padding: 2px;
+}
+i
+{   font-size: 25px;
+    color: #ff8921;
+    margin-left:3px;
+    margin-right: 3px;
+}
+
