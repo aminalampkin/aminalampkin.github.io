@@ -1,15 +1,24 @@
 /*
 Font selection
-font-family: 'Noto Sans TC', sans-serif;
 font-family: 'Cormorant Garamond', serif;
+font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Mono', monospace;
+*/
+
+/*
+Color selection (color.adobe.com, shades of ff8921)
+#BF6719
+#804411
+#FF8921
+#402208
+#E67B1E
 */
 
 /* global */
 
 a{
     text-decoration: none;
-    color: black;
+    color: #402208;
 }
 
 a:hover{
@@ -23,22 +32,54 @@ h1 { /* edit for global */
     text-transform: uppercase;
     font-size: 80px;
     text-align: center;
+    background: #cccccc;
 
 }
-p {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-weight: 400;
-}
 
-#name {
+h2{
     font-family: 'Cormorant Garamond', serif;
-    font-weight: 700;
+    font-weight: 800;
+    font-size: 42px;
     text-transform: uppercase;
-    font-size: 80px;
-    text-align: center;
-    color: white; 
-    background-color: #cccccc;
+    letter-spacing: -2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #BF6719;
+
 }
+h3 h4 h5 p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+}
+h3{
+    font-size: 28px;
+    color: #BF6719;
+}
+
+h4 h5 p{
+    color: #804411;
+}
+
+h4 {
+    font-size: 21px;
+    font-style: italic;
+}
+
+h4.res-job-title a.res-job-title
+{
+    font-style: italic;
+}
+
+a.res-job-title:hover{
+    color:#ff8921;
+}
+
+h5 {
+    font-size: 15px;
+    font-style: italic;
+}
+
 
 .nav {
     font-family: 'Cormorant Garamond', serif;
@@ -91,6 +132,7 @@ p {
     background:#cccccc;
     padding: 2px;
 }
+
 i
 {   font-size: 25px;
     color: #ff8921;
