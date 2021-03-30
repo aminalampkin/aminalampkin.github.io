@@ -1,0 +1,30 @@
+/*
+Font selection:
+font-family: 'Anton', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+
+Colors:
+Orange #fc5f1a
+Navy #010833
+Yellow #ffa500
+*/
+
+.pagecontent{
+	background-color:pink;
+}
+img {
+    width: 100%;
+}
+
+.bth{
+	background-color:white;
+}
+
+.titleBox{
+	background-color:#010833;
+	color:#ffa500;
+}
+
+.playerProfile{
+	background-color: white;
+}
