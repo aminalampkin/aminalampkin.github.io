@@ -9,22 +9,105 @@ Navy #010833
 Yellow #ffa500
 */
 
-.pagecontent{
-	background-color:pink;
+/* global style */
+.pagecontent {
+    background-color: #fc5f1a;
 }
+
+h1,
+h2 {
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p,
+li {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+}
+
+a {
+    font-weight: 600;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #ffa500;
+}
+
 img {
     width: 100%;
 }
 
-.bth{
-	background-color:white;
+/* navigation bar */
+.navbar {
+    margin-bottom: 5%;
 }
 
-.titleBox{
-	background-color:#010833;
+/* story head and bio */
+/* title in global style */
+/* double check how to get the spacing only on the bottom of the last line*/
+
+.line1and3 {
+    font-size: 60px;
+}
+
+.line2 {
+    font-size: 120px;
+}
+
+.bio {
+    font-weight: 500;
+    font-style: italic;
+    line-height: 1;
+    text-align: center;
+}
+
+/* graphic */
+/* double check */
+.graphic {
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+/* behind the hyphen */
+/* header with h1 in global style */
+
+.bth {
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+/* need to get rid of orange bar on bottom
+
+/* player profiles */
+/* all spacing is incorrect */
+.titleBox {
+    background-color: #010833;
+    color: #ffa500;
+    font-size: 70px;
+    letter-spacing: 2.5px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.league{
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 1.5px;
 	color:#ffa500;
 }
+/* full name is also in the global style with h1 */
+p.fullName{
+	font-family: 'Anton', sans-serif;
+	font-size: 30px;
+	color:#010833;
+	margin: 0;
+	padding: 0;
+}
 
-.playerProfile{
-	background-color: white;
+.playerProfile {
+    background-color: white;
 }
