@@ -10,7 +10,7 @@ Yellow #ffa500
 */
 
 /* global style */
-.pagecontent {
+.pagecontent, body {
     background-color: #fc5f1a;
 }
 
@@ -19,12 +19,14 @@ h2 {
     font-family: 'Anton', sans-serif;
     text-transform: uppercase;
     text-align: center;
+    color:#010833;
 }
 
 p,
 li {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 18px;
+    color:#010833;
 }
 
 a {
@@ -38,12 +40,29 @@ img {
     width: 100%;
 }
 
+@media (max-width:576px){
+	.line1and3{
+		font-size: 37px;
+	}
+	.line2{
+		font-size:85px;
+	}
+	p,li{
+		font-size: 15px;
+		line-height: 1.75;
+	}
+	p.nameOrigin{
+		font-size:15px;
+		line-height: 1.75;
+	}
+}
+
 /* navigation bar */
 .navbar {
     margin-bottom: 5%;
 }
 
-/* story head and bio */
+/* story head */
 /* title in global style */
 /* double check how to get the spacing only on the bottom of the last line*/
 
@@ -54,12 +73,17 @@ img {
 .line2 {
     font-size: 120px;
 }
+.hed{
+	margin-bottom:3%;
+}
 
+/* bio */
 .bio {
     font-weight: 500;
     font-style: italic;
     line-height: 1;
     text-align: center;
+    margin-bottom: 5%;
 }
 
 /* graphic */
@@ -74,8 +98,8 @@ img {
 
 .bth {
     background-color: white;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top:-5%;
+    padding-bottom:-5%;
     margin-top: 2%;
     margin-bottom: 2%;
 }
@@ -84,30 +108,57 @@ img {
 /* player profiles */
 /* all spacing is incorrect */
 .titleBox {
-    background-color: #010833;
-    color: #ffa500;
-    font-size: 70px;
-    letter-spacing: 2.5px;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    background-color:#010833;
+    margin-top:-2%;
+    margin-bottom:-2%;
 }
-.league{
-	font-size: 18px;
-	font-weight: 500;
-	letter-spacing: 1.5px;
+
+h2.playerName{
 	color:#ffa500;
-}
-/* full name is also in the global style with h1 */
-p.fullName{
-	font-family: 'Anton', sans-serif;
-	font-size: 30px;
-	color:#010833;
-	margin: 0;
-	padding: 0;
+	font-size: 70px;
+    letter-spacing: 2.5px;
+    padding-top:2%;
+    padding-bottom:2%;
 }
 
 .playerProfile {
     background-color: white;
+    padding-top:2%;
+    padding-bottom:2%;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+.league{
+	font-weight: 500;
+	letter-spacing: 1.5px;
+	color:#ffa500;
+	margin:0;
+}
+/* full name is also in the global style with h2 */
+h2.fullName{
+	font-size: 30px;
+	text-align:left;
+	margin: 0;
+	padding: auto;
+}
+
+p.nameOrigin{
+	font-weight: 200;
+	font-size: 16px;
+	color:#010833;
+}
+
+/* horizontal rule */
+.horizontal{
+	border-top: 2px white solid;
+	width: 25%;
+	margin:0 auto;
+}
+
+/* data and methods */
+.methods, .methodsTitle{
+	font-size:14px;
+}
+p.methodsTitle{
+	font-weight:600;
 }

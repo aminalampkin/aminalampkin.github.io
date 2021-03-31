@@ -21,26 +21,31 @@
 <body>
     <!--page contents go here-->
     <!-- navbar brand -->
+    <!-- navbar full width row -->
+    <div class="row navigation">
+        <nav class="navbar navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="logo.png">
+                    <img src="logo.png" alt="Pudding Logo">
+                </a>
+            </div>
+        </nav>
+    </div>
     <div class="container pagecontent">
-        <!-- navbar full width row -->
-        <div class="row">
-            <nav class="navbar navbar-light bg-light">
-                <div class="container">
-                    <a class="navbar-brand" href="logo.png">
-                        <img src="logo.png" alt="Pudding Logo">
-                    </a>
-                </div>
-            </nav>
-        </div>
         <div class="row hed">
-            <!--header + bio-->
+            <!--header-->
             <div class="offset-md-2 col-md-8">
                 <h1 class="line1and3">The rise of</h1>
                 <h1 class="line2">hyphenated</h1>
                 <h1 class="line1and3">last names in pro sports</h1>
-                <p class="bio bodyText">By <a href="#" target="_blank">Jan Diehm</a><br>Illustrations by <a href="#" target="_blank">Arthur Mount</a></p>
             </div>
-        </div> <!-- end of header + bio -->
+        </div> <!-- end of header -->
+        <div class="row bio">
+            <!-- start of bio -->
+            <div class="offset-md-2 col-md-8">
+                <p>By <a href="#" target="_blank">Jan Diehm</a><br>Illustrations by <a href="#" target="_blank">Arthur Mount</a></p>
+            </div>
+        </div> <!-- end of bio -->
         <div class="row">
             <!-- start first chunk of story text -->
             <div class="offset-md-2 col-md-8 bodyText">
@@ -104,13 +109,13 @@
             <!-- start of player profile -->
             <!-- start of title box -->
             <div class="col-md-12 titleBox">
-                <h1>Rowland-Smith</h1>
+                <h2 class="playerName">Rowland-Smith</h2>
             </div>
         </div> <!-- end of title box -->
         <div class="row playerProfile">
             <div class="offset-md-1 col-md-6">
                 <p class="league">MLB</p>
-                <p class="fullName">Ryan Rowland-Smith</p>
+                <h2 class="fullName">Ryan Rowland-Smith</h2>
                 <p class="nameOrigin">Inherited already hyphenated name from parents</p>
                 <p class="info">The MLB didn’t have a player with a hyphenated last name until 2007, when Rowland-Smith took the
                     mound for the Seattle Mariners, and the league’s only had three others since. Rowland-Smith,
@@ -128,13 +133,13 @@
             <!-- start of player profile -->
             <!-- start of title box -->
             <div class="col-md-12 titleBox">
-                <h1>Green-Ellis</h1>
+                <h2 class="playerName">Green-Ellis</h2>
             </div>
         </div> <!-- end of title box -->
         <div class="row playerProfile">
             <div class="offset-md-1 col-md-6">
                 <p class="league">NFL</p>
-                <p class="fullName">BenJarvus Green-Ellis</p>
+                <h2 class="fullName">BenJarvus Green-Ellis</h2>
                 <p class="nameOrigin">Combined parents’ names</p>
                 <p class="info">Green-Ellis combined his mother’s last name, Green, with his father’s last name, Ellis. As for
                     his first name, his mom just liked how it sounded. Put it all together and you have “The Law
@@ -152,13 +157,13 @@
             <!-- start of player profile -->
             <!-- start of title box -->
             <div class="col-md-12 titleBox">
-                <h1>Diggins-Smith</h1>
+                <h2 class="playerName">Diggins-Smith</h2>
             </div>
         </div> <!-- end of title box -->
         <div class="row playerProfile">
             <div class="offset-md-1 col-md-6">
                 <p class="league">WNBA</p>
-                <p class="fullName">Skylar Diggins-Smith</p>
+                <h2 class="fullName">Skylar Diggins-Smith</h2>
                 <p class="nameOrigin">Married and combined names with spouse</p>
                 <p class="info">Then just Skylar Diggins, Diggins-Smith led her Notre Dame team to three consecutive Final Four
                     Appearances between 2010–2013. She was selected 3rd overall in the 2013 WNBA draft, and by 2017
@@ -175,13 +180,13 @@
             <!-- start of player profile -->
             <!-- start of title box -->
             <div class="col-md-12 titleBox">
-                <h1>Abdul-Jabbar</h1>
+                <h2 class="playerName">Abdul-Jabbar</h2>
             </div>
         </div> <!-- end of title box -->
         <div class="row playerProfile">
             <div class="offset-md-1 col-md-6">
                 <p class="league">NBA</p>
-                <p class="fullName">Skylar Diggins-Smith</p>
+                <h2 class="fullName">Skylar Diggins-Smith</h2>
                 <p class="nameOrigin">Changed name for religious reasons</p>
                 <p class="info">Abdul-Jabbar entered the NBA during the 1969-1970 season under a different name: Lew Alcindor. He
                     converted to Islam in 1968 but didn’t publically begin using his hyphenated name until a few
@@ -200,13 +205,13 @@
             <!-- start of player profile -->
             <!-- start of title box -->
             <div class="col-md-12 titleBox">
-                <h1>Grand-Pierre</h1>
+                <h2 class="playerName">Grand-Pierre</h2>
             </div>
         </div> <!-- end of title box -->
         <div class="row playerProfile">
             <div class="offset-md-1 col-md-6">
                 <p class="league">NHL</p>
-                <p class="fullName">Skylar Diggins-Smith</p>
+                <h2 class="fullName">Skylar Diggins-Smith</h2>
                 <p class="nameOrigin">Jean-Luc Grand-Pierre</p>
                 <p class="info">Grand-Pierre was dubbed the “The Hyphenator” for his double double-barrelled name. The former NHL
                     defenseman is from Quebec, where hyphenated last names are common. French influence in places
@@ -238,9 +243,9 @@
         </div> <!-- end of final chunk of the story -->
         <div class="row">
             <!-- credits start -->
-            <div class="offset-md-2 col-md-8 bodyText">
-                <p class="methods">Data & methods</p>
-                <p class="methodsDetails">Player names were collected from <a href="#">Baseball Reference</a>, <a href="#">Basketball
+            <div class="offset-md-2 col-md-8">
+                <p class="methodsTitle">Data & methods</p>
+                <p class="methods">Player names were collected from <a href="#">Baseball Reference</a>, <a href="#">Basketball
                         Reference</a>, <a href="#">Football Reference</a>, <a href="#">Hockey Reference</a>, <a href="#">MLS</a>, and <a href="#">NWSL</a>.
                     Names that included “-” were tagged and manually vetted. Korean names, where the last name appears
                     before the first name, were not tagged as hyphenated names. Players were grouped into decades by the
