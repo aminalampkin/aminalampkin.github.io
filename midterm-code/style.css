@@ -96,13 +96,14 @@ img {
 /* behind the hyphen */
 /* header with h1 in global style */
 
-.bth {
+.whiteBox {
     background-color: white;
     padding-top:-5%;
     padding-bottom:-5%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top:2%;
+    margin-bottom:2%;
 }
+
 /* need to get rid of orange bar on bottom
 
 /* player profiles */
@@ -161,4 +162,8 @@ p.nameOrigin{
 }
 p.methodsTitle{
 	font-weight:600;
+}
+
+.credits{
+	padding-bottom:5%;
 }
