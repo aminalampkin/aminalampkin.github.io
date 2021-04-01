@@ -1,0 +1,42 @@
+.fruit{
+background-color: blue;
+margin-bottom:5%;
+}
+
+#apple{
+background-color:pink;
+border:solid 5px orange;
+}
+
+h1{
+	font-size:100px;
+	padding:5%;
+}
+
+@media (max-width:576px){
+	h1{
+		font-size:35px;
+		padding:1%;
+	}
+}
+img{
+	max-width: 100%;
+	height:auto;
+}
+
+.graphic{
+	display: block;
+    margin: 0 auto 0 auto;
+}
+.row{
+	background-color: green;
+}
+
+.picture{
+	background-color:yellow;
+}
+.picture1{
+	background-color:black;
+}
+/* this is also a comment */
+
