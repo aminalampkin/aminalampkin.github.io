@@ -1,0 +1,81 @@
+/*
+Font selection:
+font-family: 'Stardos Stencil', cursive;
+	weight options: 400 (regular), 700 (bold);
+font-family: 'Raleway', sans-serif;
+	weight options: 
+		200 (extra-light)
+		300 (light)
+		400 (regular and italic)
+		800 (extra bold and italic);
+*/
+
+/* global */
+h1, h2{
+	font-family: 'Stardos Stencil', cursive;
+	font-size: 75px;
+	font-weight: 700;
+	text-align: center;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	font-weight:400;
+}
+
+blockquote{
+	font-size:30px;
+	font-weight:400;
+	font-style: italic;
+	text-align: center;
+}
+
+a {
+	color: gray;
+	/* change hover */
+}
+
+p.caption{
+	background-color:#DCDCDC;
+}
+/* want the audio control at least center of the column 
+if it has to be in another column in bootstrap */
+audio{
+	justify-content:center;
+}
+
+/* portaits */
+h2.brand{
+	font-size:50px;
+	text-align: center;
+}
+
+p.owner{
+	font-style: italic;
+	text-align:center;
+}
+
+p.caption{
+	font-weight:300;
+	font-style: italic;
+}
+
+#jeyla{
+	font-size:25px;
+}
+
+/* Large first letter of the paragraph (drop cap) */
+/* https://css-tricks.com/almanac/properties/i/initial-letter/ */
+/*https://blog.hubspot.com/website/css-drop-cap*/
+span {
+  float: left;
+  line-height: 85%;
+  width: .7em;
+  font-size: 400%;
+  font-family: georgia;
+}
+
+.before-after{
+	background-color:#5CE1E6;
+}
