@@ -21,7 +21,7 @@ h1, h2{
 
 p{
 	font-family: 'Raleway', sans-serif;
-	font-size: 18px;
+	font-size: 22px;
 	font-weight:400;
 }
 
@@ -43,7 +43,16 @@ p.caption{
 /* want the audio control at least center of the column 
 if it has to be in another column in bootstrap */
 audio{
-	justify-content:center;
+max-width: auto;	}
+
+.instagram-media{
+padding-top:20%;
+padding-bottom: 20%;
+float:right;
+}
+
+.row{
+	padding-bottom: 2%;
 }
 
 /* portaits */
@@ -62,8 +71,16 @@ p.caption{
 	font-style: italic;
 }
 
-#jeyla{
-	font-size:25px;
+#sid{
+	font-size: 19px;
+}
+
+#jo{
+	font-size:45px;
+}
+
+.card{
+	height:600px;
 }
 
 /* Large first letter of the paragraph (drop cap) */
